@@ -1,0 +1,141 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2C3639;
+}
+
+header {
+    background-color: #395B64;
+    width: 100vw;
+    box-shadow: 0px 0.1px 7px 0px;
+}
+
+.to-do {
+    padding: 20px 10px 10px 100px;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Albert Sans', sans-serif;
+    color: #DCD7C9;
+}
+
+.add-items {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 10px 40px;
+    color: #DCD7C9;
+    font-size: 2em;
+}
+
+
+main {
+    
+    background-color: #334756;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    width: max-content;
+    max-width: max-content;
+    min-width: max-content;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 0px #8080806e;
+    outline: 1px solid #4b4b4b6e;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 40vw;
+
+}
+input.new-task:focus{
+    outline: 2px solid white ;
+}
+
+.inputs {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0px 10px 10px 40px;
+
+}
+
+.new-task {
+    margin: 10px 0px;
+    padding-left: 10px;
+    background-color: #A5C9CA;
+    min-width: 20vw;
+    height: 2.3em;
+    border-radius: 7px;
+    border: none;
+}
+
+.submit {
+    cursor: pointer;
+    margin-left: 16px;
+    height: 2.3em;
+    width: 7em;
+    padding: 3px;
+    border-radius: 7px;
+    border: none;
+    background-color: #e0bd5b;
+}
+
+.submit:hover {
+    box-shadow: 0px 0px 5px #777777;
+}
+
+.submit:active {
+    background-color: #c79e2c;
+    box-shadow: none;
+}
+
+.line {
+    border: 0.5px solid rgba(255, 255, 255, 0.271);
+    margin-left: 40px;
+    min-width: max-content;
+}
+h2{
+    margin-top: 10px;
+    margin-left: 40px;
+    color:#A5C9CA;
+}
+
+.box {
+    display: flex;
+    margin: 0.5rem;
+    color: #DCD7C9;
+}
+.task-list{
+    margin-left: 40px;
+    color: #DCD7C9;
+    font-size: 1.5em;
+}
+.text-area{
+    resize: none;
+    vertical-align: middle;
+    border-radius: 0.5rem;
+    padding: 10px;
+    width: 40vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color:#DCD7C9;
+}
+.text-area:focus{
+    outline: none;
+}
+div li{
+    margin: 1rem 0;
+}
+.delete{
+    vertical-align: middle;
+    margin: 0 1rem;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    color: rgb(202, 202, 202);
+    border: none;
+    cursor: pointer;
+    background-color: rgb(212, 58, 58);
+}

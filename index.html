@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Outfit:wght@200;400&display=swap"
+        rel="stylesheet">
+    <title>ToDo list</title>
+</head>
+
+<body>
+    <header>
+        <div class="to-do">ToDo List</div>
+    </header>
+    <main>
+        <div class="add-items">
+            Add Items
+        </div>
+        <div class="inputs">
+            <form id='task-form'>
+                <input id="task-input" type="text" class="new-task" placeholder="Add your new todo" required>
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </div>
+        <hr class="line">
+        <h2>TO DO</h2>
+        <div class="box">
+            <div class="task-list">
+                <ul>
+                    <li> <textarea name="taskinsert" id="task-inserted" class="text-area" rows="1" cols="3"
+                            readonly></textarea> <button class="delete">Delete</button> </li>
+                    <li> <textarea name="taskinsert" id="task-inserted" class="text-area" rows="1" cols="3"
+                            readonly></textarea> <button class="delete">Delete</button> </li>
+                    <li> <textarea name="taskinsert" id="task-inserted" class="text-area" rows="1" cols="3"
+                            readonly></textarea> <button class="delete">Delete</button> </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
